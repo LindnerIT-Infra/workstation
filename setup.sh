@@ -21,7 +21,7 @@ ln -s $SCRIPT_DIR/.zshrc ~/.zshrc
 
 # get and build zsh-ssh-tmux
 if [ ! -f ~/.local/bin/zsh-ssh-tmux ]; then
-  cd zsh-ssh-tmux
+  cd $SCRIPT_DIR/zsh-ssh-tmux
   go build -o ssh-conf-gen .
   mv ssh-conf-gen ~/.local/bin/
 fi

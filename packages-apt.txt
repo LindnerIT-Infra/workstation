@@ -6,7 +6,7 @@ golang
 keychain
 tmux
 tmux-plugin-manager
-openssl-client
+openssh-client
 git
 fzf
 python3-venv
