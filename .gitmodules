@@ -1,0 +1,6 @@
+[submodule ".tmux/plugins/tmux-ssh"]
+	path = .tmux/plugins/tmux-ssh
+	url = https://github.com/SnakebiteEF2000/tmux-ssh.git
+[submodule ".powerlevel10k"]
+	path = .powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
