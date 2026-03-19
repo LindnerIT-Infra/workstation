@@ -21,12 +21,9 @@ ln -s $SCRIPT_DIR/.zshrc ~/.zshrc
 
 # get and build zsh-ssh-tmux
 if [ ! -f ~/.local/bin/zsh-ssh-tmux ]; then
-  mkdir /tmp/zsh-ssh-tmux && cd /tmp/zsh-tmux
-  git clone https://github.com/SnakebiteEF2000/zsh-ssh-tmux.git
   cd zsh-ssh-tmux
   go build -o ssh-conf-gen .
   mv ssh-conf-gen ~/.local/bin/
-  cd && rm -rf /tmp/zsh-ssh-tmux
 fi
 
 # prepare python venv for vsdoe
