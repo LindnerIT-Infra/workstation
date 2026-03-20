@@ -6,7 +6,7 @@ This repository contains configuration files (`zsh`, `tmux`, `VS Code`) and a se
 
 ## Clone And Install
 ```bash
-git clone -b master --recurse-submodules git@github.com:LindnerIT-Infra/workstation.git
+git clone --recurse-submodules git@github.com:LindnerIT-Infra/workstation.git
 workstation/setup.sh
 ```
 
