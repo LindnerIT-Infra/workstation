@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # workstation
 Workstation bootstrapping (WSL)
 =======
@@ -20,4 +19,3 @@ Open `ansible.code-workspace` in VS Code and clone the repositories you need int
 
 Recommended VS Code extension:
 - `Ansible` (Red Hat)
->>>>>>> origin/master
