@@ -30,8 +30,11 @@ fi
 
 # prepare python venv for vsdoe
 if [ ! -d ~/workspaces/ansible/.venv ]; then
+  mkdir -p ~/workspaces/ansible/
   python3 -m venv ~/workspaces/ansible/.venv
   source ~/workspaces/ansible/.venv/bin/activate
   python -m pip install -U pip wheel
   pip install -r $SCRIPT_DIR/requirements-ansible.txt 
 fi
+
+ln -s $SCRIPT_DIR/ansible.code-workspace ~/workspaces/ansible/ansible.code-workspace || true
