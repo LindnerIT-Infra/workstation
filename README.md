@@ -6,7 +6,7 @@ This repository contains configuration files (`zsh`, `tmux`, `VS Code`) and a se
 
 ## Clone And Install
 ```bash
-git clone --recurse-submodules git@github.com:LindnerIT-Infra/workstation.git
+git clone --recurse-submodules https://github.com/LindnerIT-Infra/workstation.git
 workstation/setup.sh
 ```
 
@@ -19,3 +19,7 @@ Open `ansible.code-workspace` in VS Code and clone the repositories you need int
 
 Recommended VS Code extension:
 - `Ansible` (Red Hat)
+
+# Hints
+- tmux prefix: C-Space
+- tmux ssh-config search key: e
