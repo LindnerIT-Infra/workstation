@@ -1,0 +1,12 @@
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+neovim
+golang
+keychain
+tmux
+tmux-plugin-manager
+openssh-client
+git
+fzf
+python3-venv
